@@ -18,7 +18,7 @@ By default this module requires cache key to be separated by \x01 ()
 Synopsis
 ========
 
-``lua`
+```lua
     # nginx.conf:
 
     location / {

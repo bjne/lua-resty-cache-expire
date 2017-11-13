@@ -32,6 +32,7 @@ Synopsis
             cache_expire('/path/to/cache', { [[^127\.0\.0\.1$]], [[\.jpe?g$]] }
         }
     }
+```
 
 Author
 ======

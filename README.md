@@ -28,7 +28,7 @@ Synopsis
 
     location /expire_jpegs_on_127.0.0.1 {
         content_by_lua_block {
-            local cache_expire = require "cache_expire"
+            local cache_expire = require "resty.cache.expire"
             cache_expire('/path/to/cache', { [[^127\.0\.0\.1$]], [[\.jpe?g$]] }
         }
     }
